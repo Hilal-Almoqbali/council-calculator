@@ -16,9 +16,7 @@ int main(void)
    std::string type ;
    std::cin >> type ;
    
-   //wchar_t eqn[] = L"eqn" ;
-   std::string eqn ="eqn" ;// that is a pure stupidity I should to change.
-   if( type == eqn )
+   if( type == "eqn" )
    {
      std::string rank;
      std::cout<<"rank?\n";
