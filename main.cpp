@@ -15,9 +15,9 @@ int main(void)
    std::cout << "what is the available mathmatical type\n";
    std::string type ;
    std::cin >> type ;
-   // if-loops for andrstandingthat ^^^.
+   
    //wchar_t eqn[] = L"eqn" ;
-   std::string eqn ="eqn" ;
+   std::string eqn ="eqn" ;// that is a pure stupidity I should to change.
    if( type == eqn )
    {
      std::string rank;
