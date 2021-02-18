@@ -84,10 +84,64 @@ int main(void)
 
    }// the end of the eqn code
    
- if(type == "")
+ if(type == "2eqns")
  {
-    
- }// the end of ??
+    float In_a1;
+    float In_b1;
+    float In_c1;
+    float In_d1;
+    float In_a2;
+    float In_b2;
+    float In_c2;
+    float In_d2;
+    std::cout<<"ay+bx+c=d , (a_2)y+(b_2)x+(c-2)=(d_2)  //so type a,b,c,(a_2),(b_2),(c_2) in the order"<<"\n";
+         std::cout<<"a=";
+         std::cin>> In_a1;
+         std::cout<<"\nb=";
+         std::cin>> In_b1;
+         std::cout<<"\nc=";
+         std::cin>> In_c1;
+         std::cout<<"\n(d)=";
+         std::cin>> In_d1;
+         std::cout<<"(a_2)=";
+         std::cin>> In_a2;
+         std::cout<<"\n(b_2)=";
+         std::cin>> In_b2;
+         std::cout<<"\n(c_2)=";
+         std::cin>> In_c2;
+         std::cout<<"\n(d_2)=";
+         std::cin>> In_d2;
+         float q;
+         if (In_a1 != In_a2)
+         {
+         if( In_a1 > In_a2 )
+         { q = In_a1 - In_a2 ;}
+         if( In_a1 < In_a2 )
+         { q = In_a2 - In_a1 ;}
+          In_a1=In_a1+q;
+          In_b1=In_b1+q;
+          In_c1=In_c1+q;
+          float aqa = In_a1 - In_a2;
+          float aqb = In_b1 - In_b2;
+          float aqc = In_c1 - In_c2;
+          float aqd = In_d1 - In_d2;
+          // ? your algorthim son!!!
+         }//the end of if(In_a1 != In_a2)
+         
+                   
+ }// the end of 2eqns
+ if(type == "3eqns")
+ {
+    float In_a1;
+    float In_b1;
+    float In_c1;
+    float In_a2;
+    float In_b2;
+    float In_c2;
+    float In_a3;
+    float In_b3;
+    float In_c3;
 
+ }// the end of 3eqns
 
 }// the end of main(void)
