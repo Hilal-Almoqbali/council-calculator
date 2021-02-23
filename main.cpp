@@ -123,6 +123,7 @@ int main(void)
           float aqb = In_b1 - In_b2;
           float aqc = In_c1 - In_c2;
           float aqd = In_d1 - In_d2;
+          
           // ? your algorthim son!!!
          }//the end of if(In_a1 != In_a2)
          
